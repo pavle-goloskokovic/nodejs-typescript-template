@@ -1,0 +1,42 @@
+{
+    "name": "nodejs-typescript-template",
+    "version": "0.1.0",
+    "description": "Node.js Typescript template",
+    "main": "src/main.ts",
+    "private": true,
+    "scripts": {
+        "main": "ts-node src/main.ts",
+        "eslint": "eslint **/*.ts",
+        "eslint:fix": "eslint --fix **/*.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/pavle-goloskokovic/nodejs-typescript-template.git"
+    },
+    "keywords": [
+        "node",
+        "nodejs",
+        "node-js",
+        "type",
+        "script",
+        "typescript",
+        "javascript",
+        "boilerplate",
+        "template",
+        "development"
+    ],
+    "author": "Pavle Goloskoković",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/pavle-goloskokovic/nodejs-typescript-template/issues"
+    },
+    "homepage": "https://github.com/pavle-goloskokovic/nodejs-typescript-template#readme",
+    "devDependencies": {
+        "@typescript-eslint/eslint-plugin": "^7.1.0",
+        "eslint": "^8.57.0",
+        "eslint-plugin-brace-rules": "^0.1.6"
+    },
+    "dependencies": {
+        "ts-node": "^10.9.2"
+    }
+}
